@@ -21,3 +21,7 @@ realizdos de manera forzada"* (Casero, A., 2022).
 > ya puede crear un conflicto, es decir, modifico el mismo archivo en sus mismas líneas y en dos ramas bifurcadas
 > (no es posible ya un merge f-f) y mergeo NO f-f (no fuerzo nada) ¿Me equivoco?
 
+6. ¿Qué comando o comandos utilizaste en el paso 25?
+
+**git log --graph**
+
