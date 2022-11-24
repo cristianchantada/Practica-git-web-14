@@ -1,5 +1,9 @@
 # Práctica de Git y Git Hub de Cristian Varela Casas. Bootcamp Web XIV.
 
+> Nota: la rama master, al haber creado el repositorio desde Github, ha sido renombrada a main. No estoy deacuerdo con estas
+> estas tonterías de lo políticamente correcto (incluyendo las censuras en las películas de Disney de toda la vida), no obstante,
+> para no complicarme la vida renombrando en Github, pasaré por el aro. 
+
 1. ¿Qué comando utilizaste en el paso 11? ¿Por qué?
 
 **git reset --hard HEAD~1**
@@ -21,3 +25,14 @@ realizdos de manera forzada"* (Casero, A., 2022).
 > ya puede crear un conflicto, es decir, modifico el mismo archivo en sus mismas líneas y en dos ramas bifurcadas
 > (no es posible ya un merge f-f) y mergeo NO f-f (no fuerzo nada) ¿Me equivoco?
 
+4. El merge del paso 19, ¿Causó algún conflicto? ¿Por qué?
+
+Sí, porque habíamos modificado las mismas líneas del mismo archivo (git-nuestro.md) y a continuación habíamos mergeado ambas ramas
+tratándose de un NO fast-fordward.
+
+> Aquí no he leído bien el paréntesis del paso y he mergeado al reves, por lo que he tenido que montar un cristo para deshacer la
+> la CAGADA con git reset --hard HEAD~1 y luego apañármelas como he podido. Al final he salido del lío.
+>> Alberto nuestro, perdona mis cagadas como yo perdono a los que creen que la tierra es plana.
+5. El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?
+
+No, porque se trataba de un merge fast-fordwar donde main avanzaba hasta "pillar" a styled.

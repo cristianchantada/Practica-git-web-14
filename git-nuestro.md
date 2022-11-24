@@ -1,4 +1,6 @@
-# Git nuestro.
+# Jesucristian XP es el hijo de Git nuestro pese a que la virgen computadora de los 80s no tenía pa insertar el pen.  
+
+## Git nuestro.
 
 *Git* nuestro que estás en los repos
 Comprimidos sean tus *commits*
