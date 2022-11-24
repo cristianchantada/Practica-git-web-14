@@ -47,3 +47,27 @@ No, porque se trataba de un merge fast-fordwar donde main avanzaba hasta "pillar
 
 No, porque ambas ramas están ya bifurcadas y una no puede "alcanzar linealmente a la otra"; además, he hecho *git merge* 'normal' 
 para ver si creaba conflicto con las variaciones en el readme.md de ambas para cerciorarme, y lo creaba.
+
+8. ¿Qué comando o comandos utilizaste en el paso 27?
+
+**git reset HEAD~1**
+
+9. ¿Qué comando o comandos utilizaste en el paso 28?
+
+**git restore . **
+
+10. ¿Qué comando o comandos utilizaste en el paso 29?
+
+**git branch -D title**
+
+11. ¿Qué comando o comandos utilizaste en el paso 30?
+
+**git reset** + **HASH del commit** (viendo previamente el "rastro de migas" con git reflog).
+
+12. ¿Qué comando o comandos usaste en el paso 32?
+
+**git checkout** + **HASH del commit inicial** (solo va hasta ahí la "cabeza").
+
+13. ¿Qué comando o comandos usaste en el punto 33?
+
+**git checkout main** (porque el puntero de rama ya lo teníamos situado en ese commit).
